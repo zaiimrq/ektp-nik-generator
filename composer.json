@@ -16,5 +16,11 @@
         "psr-4": {
             "amculin\\ektp\\generator\\": "source/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    },
+    "scripts": {
+        "test": "phpunit --colors=always --testdox"
     }
 }
